@@ -1,3 +1,5 @@
+const express = require('express')
+
 class App {
   constructor() {
     this.express = express()
@@ -17,4 +19,4 @@ class App {
 
 }
 
-module.exports = new App()
+module.exports = new App().express
